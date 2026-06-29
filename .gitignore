@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LLM / AI agents
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.codex/
+.cursor/
+.cursorignore
+.cursorindexingignore
+.windsurfrules
+.cascade/
+.aider*
+.continue/
+.codeium/
+.tabnine/
+.amazonq/
+.github/copilot-instructions.md
+.gemini/
+
+# Misc
+*.log
