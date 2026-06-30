@@ -1,17 +1,17 @@
-# SimpleTimesheet LinkedIn Series — Content Table
+# SimpleTimesheet LinkedIn Series: Content Table
 
 51 posts, build-in-public, across 6 arcs.
 
 ---
 
-## Arc 0 — Why & The Stack (posts 1–5)
+## Arc 0: Why & The Stack (posts 1-5)
 1. Why I'm building SimpleTimesheet in public
 2. The full tech stack on one slide (and why)
 3. Four repos, one product: how I split the codebase
 4. Why I run it all on Hetzner instead of the big clouds
 5. Why I picked Go for the backend
 
-## Arc 1 — The Backend (posts 6–18)
+## Arc 1: The Backend (posts 6-18)
 6. Structuring a Go backend with domain-driven packages
 7. Choosing Fiber v3 as the web framework
 8. Postgres + JSONB: a whole month of timesheets in one column
@@ -26,11 +26,11 @@
 17. Keeping bots out: captcha and abuse protection
 18. Testing against a real Postgres with Testcontainers
 
-## Arc 1.5 — Local Dev Environment (posts 19–20)
+## Arc 1.5: Local Dev Environment (posts 19-20)
 19. Why every developer gets prod-on-their-laptop with Docker Compose
-20. Inside my local Docker Compose stack — Postgres, MinIO, mail, and friends
+20. Inside my local Docker Compose stack: Postgres, MinIO, mail, and friends
 
-## Arc 2 — The App Frontend / Next.js (posts 21–30)
+## Arc 2: The App Frontend / Next.js (posts 21-30)
 21. Next.js App Router behind a gateway (the /app basePath)
 22. Bilingual from day one with next-intl
 23. ApiAuthBridge: giving non-React services an auth token
@@ -42,7 +42,7 @@
 29. Dark mode with zero flash on load
 30. Shipping Next.js as a standalone Docker build
 
-## Arc 3 — The Marketing Site / Vite (posts 31–36)
+## Arc 3: The Marketing Site / Vite (posts 31-36)
 31. Why the landing page is a separate Vite app
 32. Hand-rolled i18n: when a library is overkill
 33. One build, many domains: hostname-based locale
@@ -50,7 +50,7 @@
 35. Serving the site and the app from a single image
 36. The CEO hat: making product, pricing, and positioning decisions as a solo engineer
 
-## Arc 4 — Infrastructure & Ops (posts 37–46)
+## Arc 4: Infrastructure & Ops (posts 37-46)
 37. Provision once, deploy often: my Ansible role boundaries
 38. Describing Hetzner infrastructure with Terraform
 39. Encrypting the data volume with LUKS (and the gotcha that bit me)
@@ -62,7 +62,7 @@
 45. One Docker image, three apps, one supervisor
 46. Handling secrets with ansible-vault (no .env on disk)
 
-## Arc 5 — Compliance, Cost & Lessons (posts 47–51)
+## Arc 5: Compliance, Cost & Lessons (posts 47-51)
 47. GDPR by design: pseudonymous consent and audit logs
 48. Deleting data on schedule with a systemd timer
 49. Analytics that respect consent: GA4 Consent Mode v2
