@@ -1,4 +1,4 @@
-# SimpleTimesheet LinkedIn Series: Content Table
+# SimpleTimesheet Series: Content Table
 
 51 posts, build-in-public, across 6 arcs.
 
