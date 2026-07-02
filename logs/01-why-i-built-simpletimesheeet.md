@@ -5,7 +5,7 @@ Contents [contents.md](../contents.md)
 
 ---
 
-## Why I built SimpleTimesheet
+## Why I built SimpleTimesheeet
 
 I built simpletimesheeet because I had the problem myself. I needed to fill in timesheets every month, and every month I hit the same wall, public holidays. I would search the internet for my country's public holidays for that month, cross-check the dates by hand, and more than once I still missed one and had to go back and fix a submitted timesheet. A small task that kept eating real time, over and over, for something that should have been automatic.
 
