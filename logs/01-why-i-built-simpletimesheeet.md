@@ -1,4 +1,4 @@
-# Why I Built SimpleTimesheet and What Advantages It Brings Over Other Apps
+# Why I Built SimpleTimesheeet and What Advantages It Brings Over Other Apps
 
 App https://simpletimesheeet.eu <br>
 Contents [contents.md](../contents.md)
