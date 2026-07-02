@@ -1,11 +1,11 @@
 # SimpleTimesheet Series: Content Table
 
-51 posts, build-in-public, across 6 arcs.
+51 posts across 6 arcs. Written-up entries link to their full log.
 
 ---
 
 ## Arc 0: Why & The Stack (posts 1-5)
-1. Why I'm building SimpleTimesheet in public
+1. [Why I built SimpleTimesheet and what advantages it brings over other apps](logs/01-why-i-built-simpletimesheeet.md)
 2. The full tech stack on one slide (and why)
 3. Four repos, one product: how I split the codebase
 4. Why I run it all on Hetzner instead of the big clouds

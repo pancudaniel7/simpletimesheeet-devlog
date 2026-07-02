@@ -29,3 +29,4 @@ CLAUDE.local.md
 # Misc
 *.log
 posts/
+.history/
