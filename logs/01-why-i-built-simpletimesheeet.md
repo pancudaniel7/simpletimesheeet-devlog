@@ -52,4 +52,4 @@ The result, one click produces a month that is already accurate, correct working
 
 ---
 
-Try it free, https://simpletimesheeet.eu
+Try it free: https://simpletimesheeet.eu
