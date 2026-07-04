@@ -6,7 +6,7 @@
 
 ## Arc 0: Why & The Stack (posts 1-5)
 1. [Why I built SimpleTimesheet and what advantages it brings over other apps](logs/01-why-i-built-simpletimesheeet.md)
-2. The full tech stack on one slide (and why)
+2. [The full tech stack on one slide (and why)](logs/02-the-full-tech-stack-on-one-slide.md)
 3. Four repos, one product: how I split the codebase
 4. Why I run it all on Hetzner instead of the big clouds
 5. Why I picked Go for the backend

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1200 600" width="1200" height="600" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img">
+<title>simpletimesheeet measured footprint</title>
+<desc>A table of measured footprints on the live stack: Go on Fiber backend 20 MB binary and about 74 MB RAM, Vite marketing site 1.4 MB bundle, nginx 2.8 MB RAM, Postgres 17 about 54 MB RAM.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0c0a09"/>
+    <stop offset="1" stop-color="#1c1917"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.0" r="0.9">
+    <stop offset="0" stop-color="#ea7a2c" stop-opacity="0.20"/>
+    <stop offset="1" stop-color="#ea7a2c" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+  </filter>
+</defs>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="260" fill="url(#glow)"/>
+
+<!-- header -->
+<text x="48" y="74" font-size="34" font-weight="800" fill="#fafaf9" letter-spacing="-0.5">Measured footprint</text>
+<text x="48" y="104" font-size="17" font-weight="500" fill="#a8a29e">simpletimesheeet, the whole product on one idle server</text>
+<rect x="1004" y="46" width="148" height="34" rx="17" fill="#ea7a2c"/>
+<text x="1078" y="69" font-size="14" font-weight="700" fill="#1c1917" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">docker stats</text>
+
+<!-- table card -->
+<rect x="48" y="150" width="1104" height="342" rx="16" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1" filter="url(#soft)"/>
+
+<!-- column headers -->
+<text x="76" y="192" font-size="14" font-weight="700" fill="#ea7a2c" letter-spacing="0.5">PIECE</text>
+<text x="282" y="192" font-size="14" font-weight="700" fill="#ea7a2c" letter-spacing="0.5">TECH</text>
+<text x="612" y="192" font-size="14" font-weight="700" fill="#ea7a2c" letter-spacing="0.5">SIZE AND FOOTPRINT</text>
+<line x1="66" y1="216" x2="1134" y2="216" stroke="#ea7a2c" stroke-opacity="0.35" stroke-width="1"/>
+
+<!-- backend row (highlighted) -->
+<rect x="49" y="217" width="1102" height="65" fill="#ea7a2c" fill-opacity="0.07"/>
+<text x="76" y="256" font-size="17" font-weight="600" fill="#fafaf9">Backend</text>
+<text x="282" y="256" font-size="14" font-family="'SF Mono', Menlo, monospace" fill="#a8a29e">Go · Fiber (fasthttp)</text>
+<text x="612" y="256" font-size="14.5" font-family="'SF Mono', Menlo, monospace" fill="#f5f5f4">20 MB binary · ~74 MB RAM · ~0% CPU</text>
+
+<!-- marketing row -->
+<line x1="66" y1="282" x2="1134" y2="282" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="76" y="322" font-size="17" font-weight="600" fill="#fafaf9">Marketing site</text>
+<text x="282" y="322" font-size="14" font-family="'SF Mono', Menlo, monospace" fill="#a8a29e">Vite static build</text>
+<text x="612" y="322" font-size="14.5" font-family="'SF Mono', Menlo, monospace" fill="#f5f5f4">1.4 MB bundle · 93 MB image</text>
+
+<!-- proxy row -->
+<line x1="66" y1="348" x2="1134" y2="348" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="76" y="388" font-size="17" font-weight="600" fill="#fafaf9">Reverse proxy</text>
+<text x="282" y="388" font-size="14" font-family="'SF Mono', Menlo, monospace" fill="#a8a29e">nginx</text>
+<text x="612" y="388" font-size="14.5" font-family="'SF Mono', Menlo, monospace" fill="#f5f5f4">~2.8 MB RAM</text>
+
+<!-- db row -->
+<line x1="66" y1="414" x2="1134" y2="414" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+<text x="76" y="454" font-size="17" font-weight="600" fill="#fafaf9">Database</text>
+<text x="282" y="454" font-size="14" font-family="'SF Mono', Menlo, monospace" fill="#a8a29e">Postgres 17</text>
+<text x="612" y="454" font-size="14.5" font-family="'SF Mono', Menlo, monospace" fill="#f5f5f4">~54 MB RAM</text>
+
+<!-- footer -->
+<rect x="48" y="518" width="1104" height="50" rx="14" fill="#ea7a2c" fill-opacity="0.10" stroke="#ea7a2c" stroke-opacity="0.35" stroke-width="1"/>
+<text x="600" y="549" font-size="15" font-weight="600" fill="#fbbf75" text-anchor="middle">~7,800 lines of Go   ·   18 direct dependencies   ·   most of the machine still sitting free</text>
+</svg>
