@@ -1,4 +1,4 @@
-# SimpleTimesheet Series: Content Table
+# SimpleTimesheeet Series: Content Table
 
 51 posts across 6 arcs. Written-up entries link to their full log.
 
