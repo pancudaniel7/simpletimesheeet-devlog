@@ -102,7 +102,3 @@ None of that is built today, and deliberately so. The point of the single image 
 The repo count is a decision about my desk, not about the server, and that is exactly why it costs nothing at runtime. Four repos is how the code is organized while I work, so that each piece has one job, one boundary, one fitting toolset, and a footprint small enough to hold in my head a year from now. One image on one Hetzner box is how it runs, so that there is almost nothing to operate. And the same walls that keep me fast today are the ones that would let a second person own the marketing site tomorrow without ever touching the backend. Post 2 ended on "one modest Hetzner box," and this is the shape of what sits on it: four clean boxes at the desk that collapse into a single supervised container the moment they ship.
 
 The next posts open each of those boxes and go deep, starting with the Go backend and the domain rules that are the actual reason any of this exists.
-
----
-
-Try it free: https://simpletimesheeet.eu
