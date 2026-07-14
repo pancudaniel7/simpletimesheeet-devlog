@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1200 1200" width="1200" height="1200" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img">
+<title>The same server, four price tags</title>
+<desc>Bar chart comparing monthly list price of a 2 vCPU 4 GB cloud server: AWS about 38 dollars, Azure about 30, Google Cloud about 24, Hetzner about 5. Plus the bandwidth gap: 1 TB of outbound traffic costs about 90 dollars on AWS and about 1 dollar on Hetzner.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0c0a09"/>
+    <stop offset="1" stop-color="#1c1917"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.0" r="0.9">
+    <stop offset="0" stop-color="#ea7a2c" stop-opacity="0.20"/>
+    <stop offset="1" stop-color="#ea7a2c" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="barGray" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#57534e"/>
+    <stop offset="1" stop-color="#3f3c39"/>
+  </linearGradient>
+  <linearGradient id="barOrange" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f59e4e"/>
+    <stop offset="1" stop-color="#ea7a2c"/>
+  </linearGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+  </filter>
+</defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<rect width="1200" height="320" fill="url(#glow)"/>
+
+<!-- header -->
+<text x="48" y="86" font-size="42" font-weight="800" fill="#fafaf9" letter-spacing="-0.8">The same server. Four price tags.</text>
+<text x="48" y="126" font-size="19" font-weight="500" fill="#a8a29e">2 vCPU &#183; 4 GB RAM &#183; monthly list price</text>
+<rect x="1010" y="52" width="142" height="36" rx="18" fill="#ea7a2c"/>
+<text x="1081" y="76" font-size="15" font-weight="700" fill="#1c1917" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">Post 4 / 51</text>
+
+<!-- chart card -->
+<rect x="48" y="168" width="1104" height="672" rx="16" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1" filter="url(#soft)"/>
+
+<!-- baseline -->
+<line x1="80" y1="740" x2="1120" y2="740" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"/>
+
+<!-- AWS bar: $38 -> h 494, top y = 246 -->
+<rect x="95" y="246" width="170" height="494" rx="10" fill="url(#barGray)"/>
+<text x="180" y="226" font-size="36" font-weight="800" fill="#f5f5f4" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">$38</text>
+<text x="180" y="780" font-size="20" font-weight="700" fill="#fafaf9" text-anchor="middle">AWS</text>
+<text x="180" y="806" font-size="14" font-weight="500" fill="#a8a29e" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">t3.medium, EU</text>
+
+<!-- Azure bar: $30.37 -> h 395, top y = 345 -->
+<rect x="375" y="345" width="170" height="395" rx="10" fill="url(#barGray)"/>
+<text x="460" y="325" font-size="36" font-weight="800" fill="#f5f5f4" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">$30</text>
+<text x="460" y="780" font-size="20" font-weight="700" fill="#fafaf9" text-anchor="middle">Azure</text>
+<text x="460" y="806" font-size="14" font-weight="500" fill="#a8a29e" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">B2s</text>
+
+<!-- GCP bar: $24.46 -> h 318, top y = 422 -->
+<rect x="655" y="422" width="170" height="318" rx="10" fill="url(#barGray)"/>
+<text x="740" y="402" font-size="36" font-weight="800" fill="#f5f5f4" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">$24</text>
+<text x="740" y="780" font-size="20" font-weight="700" fill="#fafaf9" text-anchor="middle">Google Cloud</text>
+<text x="740" y="806" font-size="14" font-weight="500" fill="#a8a29e" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">e2-medium</text>
+
+<!-- Hetzner bar: $5.13 -> h 67, top y = 673 -->
+<rect x="935" y="673" width="170" height="67" rx="10" fill="url(#barOrange)"/>
+<text x="1020" y="653" font-size="36" font-weight="800" fill="#fbbf75" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">$5</text>
+<text x="1020" y="780" font-size="20" font-weight="700" fill="#fbbf75" text-anchor="middle">Hetzner</text>
+<text x="1020" y="806" font-size="14" font-weight="500" fill="#a8a29e" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">CX23</text>
+
+<!-- arrow annotation to hetzner bar -->
+<text x="1020" y="565" font-size="16" font-weight="600" fill="#fbbf75" text-anchor="middle">my SaaS lives here</text>
+<line x1="1020" y1="578" x2="1020" y2="628" stroke="#fbbf75" stroke-opacity="0.7" stroke-width="1.5"/>
+<path d="M 1013 620 L 1020 632 L 1027 620" fill="none" stroke="#fbbf75" stroke-opacity="0.7" stroke-width="1.5"/>
+
+<!-- egress card -->
+<rect x="48" y="872" width="1104" height="128" rx="16" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1" filter="url(#soft)"/>
+<text x="76" y="922" font-size="14" font-weight="700" fill="#ea7a2c" letter-spacing="1">THE HIDDEN BILL &#183; 1 TB OF OUTBOUND TRAFFIC</text>
+<text x="76" y="970" font-size="30" font-weight="800" fill="#f5f5f4" font-family="'SF Mono', Menlo, monospace">AWS ~$90</text>
+<text x="330" y="970" font-size="24" font-weight="600" fill="#a8a29e">vs</text>
+<text x="385" y="970" font-size="30" font-weight="800" fill="#fbbf75" font-family="'SF Mono', Menlo, monospace">Hetzner ~$1</text>
+<rect x="920" y="912" width="204" height="52" rx="26" fill="#ea7a2c"/>
+<text x="1022" y="946" font-size="21" font-weight="800" fill="#1c1917" text-anchor="middle" font-family="'SF Mono', Menlo, monospace">90&#215; cheaper</text>
+<text x="76" y="990" font-size="0" fill="none"> </text>
+
+<!-- footer card -->
+<rect x="48" y="1032" width="1104" height="94" rx="14" fill="#ea7a2c" fill-opacity="0.10" stroke="#ea7a2c" stroke-opacity="0.35" stroke-width="1"/>
+<text x="600" y="1071" font-size="19" font-weight="600" fill="#fbbf75" text-anchor="middle">My entire SaaS &#8212; Go API, Next.js app, marketing site, Postgres 17 &#8212; runs on the small orange bar.</text>
+<text x="600" y="1102" font-size="17" font-weight="600" fill="#fbbf75" text-anchor="middle" opacity="0.85">Total infrastructure bill: under &#8364;10 / month. Encrypted, in the EU, rebuildable with one command.</text>
+
+<!-- bottom tag -->
+<text x="600" y="1168" font-size="15" font-weight="500" fill="#78716c" text-anchor="middle">simpletimesheeet.eu &#183; devlog: Why I run it all on Hetzner instead of the big clouds</text>
+</svg>

@@ -8,7 +8,7 @@
 1. [Why I built SimpleTimesheet and what advantages it brings over other apps](logs/01-why-i-built-simpletimesheeet.md)
 2. [The full tech stack on one slide (and why)](logs/02-the-full-tech-stack-on-one-slide.md)
 3. [Four repos, One product, Simple but effective Architecture](logs/03-four-repos-one-product.md)
-4. Why I run it all on Hetzner instead of the big clouds
+4. [Why I run it all on Hetzner instead of the big clouds](logs/04-why-hetzner-instead-of-big-clouds.md)
 5. Why I picked Go for the backend
 
 ## Arc 1: The Backend (posts 6-18)
