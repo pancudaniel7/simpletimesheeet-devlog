@@ -9,7 +9,7 @@
 2. [The full tech stack on one slide (and why)](logs/02-the-full-tech-stack-on-one-slide.md)
 3. [Four repos, One product, Simple but effective Architecture](logs/03-four-repos-one-product.md)
 4. [Why I run it all on Hetzner instead of the big clouds](logs/04-why-hetzner-instead-of-big-clouds.md)
-5. Why I picked Go for the backend
+5. [Why I picked Go for the backend](logs/05-why-i-picked-go-for-the-backend.md)
 
 ## Arc 1: The Backend (posts 6-18)
 6. Structuring a Go backend with domain-driven packages

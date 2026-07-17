@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627">
+  <!-- background -->
+  <rect width="1200" height="627" fill="#77D4DE"/>
+
+  <!-- ================= TEXT (left) ================= -->
+  <text x="80" y="150" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3" fill="#0c2a2e">POST 5  /  WHY I PICKED GO</text>
+
+  <text x="78" y="270" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="#0c1a1c">My entire SaaS</text>
+  <text x="78" y="342" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="#0c1a1c">backend is</text>
+  <text x="78" y="414" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="#c65a10">one 20 MB file.</text>
+
+  <text x="80" y="486" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#0c2a2e">No runtime. 75 MB of RAM. One static binary.</text>
+
+  <text x="80" y="565" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#0c1a1c">simpletimesheeet.eu</text>
+
+  <!-- ================= GOPHER (right) ================= -->
+  <g stroke="#10171a" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <!-- left eye -->
+    <ellipse cx="905" cy="225" rx="72" ry="84" fill="#ffffff"/>
+    <!-- right eye -->
+    <ellipse cx="1058" cy="210" rx="80" ry="92" fill="#ffffff"/>
+  </g>
+
+  <!-- pupils (googly, no stroke) -->
+  <circle cx="888" cy="250" r="31" fill="#10171a"/>
+  <circle cx="1082" cy="232" r="33" fill="#10171a"/>
+  <circle cx="879" cy="240" r="9" fill="#ffffff"/>
+  <circle cx="1073" cy="222" r="9" fill="#ffffff"/>
+
+  <!-- muzzle / beige snout -->
+  <path d="M 928 360
+           Q 900 372 902 410
+           Q 905 452 948 452
+           Q 991 452 994 410
+           Q 996 372 968 360 Z"
+        fill="#e9caa1" stroke="#10171a" stroke-width="9" stroke-linejoin="round"/>
+
+  <!-- black nose -->
+  <ellipse cx="948" cy="352" rx="44" ry="33" fill="#10171a"/>
+
+  <!-- two buck teeth -->
+  <g fill="#ffffff" stroke="#10171a" stroke-width="8" stroke-linejoin="round">
+    <path d="M 930 452 q -14 0 -14 16 l 0 34 q 0 14 14 14 l 4 0 0 -64 z"/>
+    <path d="M 966 452 q 14 0 14 16 l 0 34 q 0 14 -14 14 l -4 0 0 -64 z"/>
+  </g>
+</svg>
