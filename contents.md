@@ -12,7 +12,7 @@
 5. [Why I picked Go for the backend](logs/05-why-i-picked-go-for-the-backend.md)
 
 ## Arc 1: The Backend (posts 6-18)
-6. Structuring a Go backend with domain-driven packages
+6. [The core of my Go backend doesn't know the database exists (Ports & Adapters)](logs/06-ports-and-adapters-clean-architecture.md)
 7. Choosing Fiber v3 as the web framework
 8. Postgres + JSONB: a whole month of timesheets in one column
 9. My SQL migration strategy (and the duplication trap)
