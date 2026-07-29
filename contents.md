@@ -15,7 +15,7 @@
 6. [The core of my Go backend doesn't know the database exists (Ports & Adapters)](logs/06-ports-and-adapters-clean-architecture.md)
 7. [Choosing Fiber v3 as the web framework](logs/07-choosing-fiber-v3.md)
 8. [Postgres + JSONB: a whole month of timesheets in one column](logs/08-postgres-jsonb-one-column.md)
-9. My SQL migration strategy (and the duplication trap)
+9. [My Postgres migration strategy (and the duplication trap)](logs/09-sql-migration-strategy.md)
 10. One auth layer, two identity providers
 11. Verifying JWTs in middleware
 12. Pulling public holidays from an open API and caching them
