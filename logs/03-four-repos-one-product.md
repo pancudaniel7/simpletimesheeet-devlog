@@ -76,11 +76,11 @@ The path has an obvious order, cheapest first. The very first move is vertical: 
 
 ```mermaid
 flowchart LR
-    subgraph Now["Today — one image, one box"]
+    subgraph Now["Today: one image, one box"]
         direction TB
         A1["nginx + Next.js + Go<br/>in one container"]
     end
-    subgraph Later["Later — pull apart along the seams"]
+    subgraph Later["Later: pull apart along the seams"]
         direction TB
         CDN["Marketing static<br/>→ CDN"]
         UIN["Next.js × N<br/>behind the gateway"]

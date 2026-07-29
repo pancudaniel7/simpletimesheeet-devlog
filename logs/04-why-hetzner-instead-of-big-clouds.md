@@ -50,7 +50,7 @@ And it changes how the bill *behaves*, not just how big it is:
 
 ```mermaid
 flowchart TD
-    subgraph Big["Big cloud — metered by usage"]
+    subgraph Big["Big cloud: metered by usage"]
         VM["Instance hours"] --> B["Bill that grows with success<br/>and surprises you in the good months"]
         EG["Egress per GB"] --> B
         IP["Public IPv4 per hour"] --> B
@@ -58,7 +58,7 @@ flowchart TD
         LB["Load balancer + capacity units"] --> B
         NAT["NAT gateway per GB"] --> B
     end
-    subgraph Hz["Hetzner — flat"]
+    subgraph Hz["Hetzner: flat"]
         S["One server + one volume + backups"] --> F["~€10, known before the month starts"]
     end
 ```
@@ -119,7 +119,7 @@ flowchart LR
     U["User in the EU"] -->|HTTPS| GW["simpletimesheeet.eu<br/>Hetzner Nuremberg (nbg1)"]
     GW --> V["LUKS-encrypted volume<br/>Postgres + MinIO"]
     V --> BK["Encrypted backups<br/>Hetzner Object Storage, EU"]
-    subgraph EU["Everything inside EU jurisdiction — GDPR, no US CLOUD Act"]
+    subgraph EU["Everything inside EU jurisdiction: GDPR, no US CLOUD Act"]
         GW
         V
         BK
