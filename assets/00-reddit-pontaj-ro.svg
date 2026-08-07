@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0a09"/>
+      <stop offset="1" stop-color="#1c1917"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0" r="0.85">
+      <stop offset="0" stop-color="#ea7a2c" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ea7a2c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1080" fill="url(#bg)"/>
+  <rect width="1200" height="1080" fill="url(#glow)"/>
+  <g transform="translate(80,58)">
+    <circle cx="28" cy="28" r="24" fill="none" stroke="#ea7a2c" stroke-width="5"/>
+    <line x1="28" y1="28" x2="28" y2="14" stroke="#ea7a2c" stroke-width="5" stroke-linecap="round"/>
+    <line x1="28" y1="28" x2="40" y2="34" stroke="#ea7a2c" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="148" y="80" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="36" font-weight="700" fill="#fafaf9">simpletimesheeet</text>
+  <text x="148" y="110" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#78716c">simpletimesheeet.eu/ro</text>
+  <text x="80" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="700" letter-spacing="5" fill="#ea7a2c">SFÂRȘIT DE LUNĂ</text>
+  <text x="78" y="300" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="64" font-weight="700" fill="#fafaf9">Foaia de pontaj lunară,</text>
+  <text x="78" y="374" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="64" font-weight="700" fill="#ea7a2c">generată automat.</text>
+  <text x="80" y="430" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="26" fill="#a8a29e">Sărbătorile legale din România, excluse automat. Export PDF sau Excel.</text>
+  <g transform="translate(80,480)">
+    <rect x="0" y="0" width="1040" height="496" rx="28" fill="#1c1917" stroke="#292524" stroke-width="2"/>
+    <text x="32" y="54" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#fafaf9">Iulie 2026</text>
+    <text x="1008" y="54" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="22" fill="#a8a29e">23 zile lucrătoare  ·  184h</text>
+    <line x1="0" y1="78" x2="1040" y2="78" stroke="#292524" stroke-width="2"/>
+    <text x="100" y="114" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#78716c">Lu</text>
+    <text x="240" y="114" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#78716c">Ma</text>
+    <text x="380" y="114" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#78716c">Mi</text>
+    <text x="520" y="114" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#78716c">Jo</text>
+    <text x="660" y="114" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#78716c">Vi</text>
+    <text x="800" y="114" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#78716c">Sâ</text>
+    <text x="940" y="114" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#78716c">Du</text>
+    <rect x="313" y="128" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="329" y="158" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">1</text>
+    <text x="431" y="158" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="453" y="128" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="469" y="158" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">2</text>
+    <text x="571" y="158" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="593" y="128" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="609" y="158" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">3</text>
+    <text x="711" y="158" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="733" y="128" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="749" y="158" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">4</text>
+    <text x="851" y="158" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="873" y="128" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="889" y="158" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">5</text>
+    <text x="991" y="158" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="33" y="182" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="49" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">6</text>
+    <text x="151" y="212" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="173" y="182" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="189" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">7</text>
+    <text x="291" y="212" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="313" y="182" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="329" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">8</text>
+    <text x="431" y="212" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="453" y="182" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="469" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">9</text>
+    <text x="571" y="212" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="593" y="182" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="609" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">10</text>
+    <text x="711" y="212" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="733" y="182" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="749" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">11</text>
+    <text x="851" y="212" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="873" y="182" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="889" y="212" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">12</text>
+    <text x="991" y="212" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="33" y="236" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="49" y="266" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">13</text>
+    <text x="151" y="266" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="173" y="236" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="189" y="266" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">14</text>
+    <text x="291" y="266" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="313" y="236" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="329" y="266" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">15</text>
+    <text x="431" y="266" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="453" y="236" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="469" y="266" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">16</text>
+    <text x="571" y="266" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="593" y="236" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="609" y="266" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">17</text>
+    <text x="711" y="266" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="733" y="236" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="749" y="266" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">18</text>
+    <text x="851" y="266" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="873" y="236" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="889" y="266" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">19</text>
+    <text x="991" y="266" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="33" y="290" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="49" y="320" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">20</text>
+    <text x="151" y="320" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="173" y="290" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="189" y="320" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">21</text>
+    <text x="291" y="320" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="313" y="290" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="329" y="320" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">22</text>
+    <text x="431" y="320" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="453" y="290" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="469" y="320" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">23</text>
+    <text x="571" y="320" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="593" y="290" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="609" y="320" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">24</text>
+    <text x="711" y="320" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="733" y="290" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="749" y="320" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">25</text>
+    <text x="851" y="320" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="873" y="290" width="134" height="46" rx="12" fill="none" stroke="#292524" stroke-width="2"/>
+    <text x="889" y="320" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" fill="#57534e">26</text>
+    <text x="991" y="320" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="17" fill="#57534e">liber</text>
+    <rect x="33" y="344" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="49" y="374" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">27</text>
+    <text x="151" y="374" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="173" y="344" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="189" y="374" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">28</text>
+    <text x="291" y="374" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="313" y="344" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="329" y="374" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">29</text>
+    <text x="431" y="374" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="453" y="344" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="469" y="374" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">30</text>
+    <text x="571" y="374" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <rect x="593" y="344" width="134" height="46" rx="12" fill="#292524"/>
+    <text x="609" y="374" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#fafaf9">31</text>
+    <text x="711" y="374" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ea7a2c">8h</text>
+    <line x1="0" y1="414" x2="1040" y2="414" stroke="#292524" stroke-width="2"/>
+    <text x="32" y="455" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="600" fill="#a8a29e">Sărbători legale RO, excluse automat:</text>
+    <rect x="400" y="429" width="104" height="38" rx="19" fill="none" stroke="#ea7a2c" stroke-width="2"/>
+    <text x="452" y="455" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="600" fill="#ea7a2c">15 aug</text>
+    <rect x="514" y="429" width="104" height="38" rx="19" fill="none" stroke="#ea7a2c" stroke-width="2"/>
+    <text x="566" y="455" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="600" fill="#ea7a2c">30 nov</text>
+    <rect x="628" y="429" width="104" height="38" rx="19" fill="none" stroke="#ea7a2c" stroke-width="2"/>
+    <text x="680" y="455" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="600" fill="#ea7a2c">1 dec</text>
+    <rect x="742" y="429" width="104" height="38" rx="19" fill="none" stroke="#ea7a2c" stroke-width="2"/>
+    <text x="794" y="455" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="600" fill="#ea7a2c">25 dec</text>
+    <rect x="856" y="429" width="104" height="38" rx="19" fill="none" stroke="#ea7a2c" stroke-width="2"/>
+    <text x="908" y="455" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="19" font-weight="600" fill="#ea7a2c">26 dec</text>
+  </g>
+  <g transform="translate(80,1006)">
+    <rect x="0" y="0" width="176" height="52" rx="26" fill="#ea7a2c"/>
+    <text x="88" y="34" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#0c0a09">GRATUIT</text>
+    <text x="208" y="35" font-family="Helvetica Neue, Helvetica, Arial, DejaVu Sans, sans-serif" font-size="24" fill="#a8a29e">fără card bancar  ·  PDF + Excel  ·  RO / EN</text>
+  </g>
+</svg>

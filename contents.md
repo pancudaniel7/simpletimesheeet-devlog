@@ -16,7 +16,7 @@
 7. [Choosing Fiber v3 as the web framework](logs/07-choosing-fiber-v3.md)
 8. [Postgres + JSONB: a whole month of timesheets in one column](logs/08-postgres-jsonb-one-column.md)
 9. [My Postgres migration strategy (and the duplication trap)](logs/09-sql-migration-strategy.md)
-10. One auth layer, two identity providers
+10. [One auth layer, two identity providers](logs/10-one-auth-layer-two-identity-providers.md)
 11. Verifying JWTs in middleware
 12. Pulling public holidays from an open API and caching them
 13. Adding holiday-name tooltips end to end
